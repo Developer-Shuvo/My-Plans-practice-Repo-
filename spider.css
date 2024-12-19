@@ -142,3 +142,65 @@ html {
   display: flex;
   gap: 5px;
 }
+
+/* ****-------------My Plans--------------*** */
+
+#plans {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.plans-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.my-plans {
+  padding-bottom: 60px;
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.plans-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.img {
+  padding-bottom: 15px;
+}
+
+.plans-content-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.plans-content h3 {
+  color: (--Dark-01, #151414);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.plans-content p {
+  color: var(--Dark-03, #737272);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
